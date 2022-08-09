@@ -1,0 +1,770 @@
+
+.main{
+    background: #f2f2f2;
+}
+
+.color1{
+    background: #34495e;
+    color: #ffff;
+}
+aside{
+    background: #c0392b;
+    color: #ffff;
+}
+
+ul, ol{
+    list-style: none;    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    
+    /* text-align: center; */
+}
+
+.navbar li a{
+    background-color: #FFFFFF;
+    color: #03633b;
+    font-size: 14.5px;
+    font-weight: 650;
+    text-decoration: none;
+    padding: 25px 18px;
+    display: block;
+    
+}
+
+.navbar2 li a{
+    background-color: #FFFFFF;
+    color: #1D7451;
+    font-size: 14.5px;
+    font-weight: 650;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    box-shadow: 2px 2px 0px #999;
+}
+
+/* 1D7451 */
+
+.navbar li a:hover{
+    color: #4E9276; 
+}
+
+.navbar > li {
+    float: left;
+}
+
+.navbar li ul {
+    display:none;
+    position:absolute;
+    min-width: 140px;
+}
+
+.navbar li:hover > ul{
+    display: block;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 350px;
+    height: auto;
+    border-radius: 0px;
+    overflow: hidden;
+    margin: 20px;
+    text-align:left;
+    z-index: -1;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1400px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    z-index: -1;
+    margin-top: 100px;
+    
+}
+
+.contenedor a{
+    border: 0;
+    border-radius: 0%;
+}
+
+.contenedor .card a img{
+    width: 570px;
+    height: auto;
+    border-radius: 0%;
+    overflow: hidden;
+    margin: 30px;
+    z-index: -1;
+    border: 0px;
+    margin-top: 0px;
+    z-index: -1;
+}
+
+.titulo a{
+    color: #333333;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 650;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.footer{
+    background: #034732;
+    padding-bottom: 100px;
+    height: 200px;
+    padding: 20px 20px;
+    bottom: 0;
+}
+
+.footer2{
+    background: #FFFFFF;
+    padding-top: 20px;
+    height: 10px;
+    padding: 5px 5px;
+}
+
+.footer .footer_menu{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto 25px;
+
+    justify-content: space-between;
+}
+
+.footer .footer_menu .titulo1{
+    margin-top: 40px;
+    margin-bottom: auto;
+    color: #FFFFFF;
+    font-weight: 650;
+    text-align: center;
+}
+
+.footer2 .footer2_menu .titulo2{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer .footer_menu .parrafo{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14.5px;
+}
+
+.foto_mujer{
+    position: absolute;
+    z-index: -1;
+    top: 270px;
+    left: 1000px;
+}
+
+.logomeso{
+
+    position: absolute;
+    top: 220px;
+    left: 437px;
+    z-index: -1;
+}
+
+.InfoMeso h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 355px;
+    left: 385px;
+    z-index: -1;
+}
+
+.InfoMeso p{
+    text-align: center;
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    z-index: -1;
+    color: #666666;
+}
+
+.InfoMeso2 h2{
+    text-align: center;
+    position: absolute;
+    top: 550px;
+    left: 390px;
+    font-weight: bold;
+    font-size: 25px;
+    z-index: -1;
+}
+
+.btnCarreras{
+    background-color: #01633b;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 28px;
+    font-size: 22px;
+    border-radius: 8px;
+    font-weight: bold;
+    position: absolute;
+    top: 600px;
+    left: 398px;
+    z-index: -1;
+}
+
+.Info{
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    top: 1066px;
+    left: 215px;
+    font-weight: 400;
+}
+
+.linea{
+    position: absolute;
+    top: 85px;
+    
+}
+
+.form-control{
+    position: absolute;
+    top: 1130px;
+    left: 210px;
+    height: 60px;
+    width: 570px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 0px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.form-control2{
+    position: absolute;
+    top: 1130px;
+    left: 820px;
+    height: 60px;
+    width: 570px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 0px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.form-control3{
+    position: absolute;
+    top: 1230px;
+    left: 210px;
+    height: 170px;
+    width: 1180px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 0px;
+    padding: 15px;
+    padding-bottom: 120px;
+    font-size: 17px;
+}
+
+.btnEnviar{
+    background-color: #01633b;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 28px;
+    font-size: 22px;
+    border-radius: 8px;
+    font-weight: 550;
+    position: absolute;
+    top: 1420px;
+    left: 1270px;
+    z-index: -1;
+}
+
+.verde {
+    width: 100%;
+    height: 455px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(136, 44%, 71%, 0.459), hsla(135, 87%, 12%, 0.664)), url(../Assets/fotomeso.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(136, 68%, 16%, 0.664), hsla(136, 68%, 16%, 0.664)), url(../Assets/fotomeso.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 1550px;
+    
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.infoverde .p1{
+    position:absolute;
+    top: 1770px;
+    left: 600px;
+    font-size: 37px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.infoverde .p2{
+    position:absolute;
+    top: 1860px;
+    left: 750px;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.pregunta .mesop{
+    position:absolute;
+    top: 2190px;
+    left: 530px;
+    font-size: 37px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.libros{
+    position: absolute;
+    top: 2300px;
+    left: -15px;
+    text-align: center;
+}
+
+.woman{
+    position: absolute;
+    top: 2300px;
+    left: 390px;
+    text-align: center;
+}
+
+.support{
+    position: absolute;
+    top: 2302px;
+    left: 800px;
+    text-align: center;
+}
+
+.team{
+    position: absolute;
+    top: 2310px;
+    left: 1200px;
+    text-align: center;
+}
+
+.libros .librosp1{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.libros .librosp2{
+    font-size: 16px;
+}
+
+.woman .librosp1{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.woman .librosp2{
+    font-size: 16px;
+}
+
+.support .librosp1{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.support .librosp2{
+    font-size: 16px;
+}
+
+.team .librosp1{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.team .librosp2{
+    font-size: 16px;
+}
+
+.pregunta2 .mesop{
+    position:absolute;
+    top: 2645px;
+    left: 620px;
+    font-size: 37px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.reg .reg1{
+    position:absolute;
+    top: 2750px;
+    left: 180px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.reg .reg2{
+    position:absolute;
+    top: 2750px;
+    left: 770px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.reg .reg3{
+    position:absolute;
+    top: 2750px;
+    left: 1210px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.reg .ger1{
+    position:absolute;
+    top: 2790px;
+    left: 180px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.reg .ger2{
+    position:absolute;
+    top: 2790px;
+    left: 705px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.reg .ger3{
+    position:absolute;
+    top: 2790px;
+    left: 1230px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+
+.revistaverde{
+    position: absolute;
+    background-color: #01633b;
+    color: #FFFFFF;
+    height: 960px;
+    top: 3220px;
+    width: 1720px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 710px;
+}
+
+.revistaverde2{
+    position: absolute;
+    color: #FFFFFF;
+    top: 3340px;
+    left: 410px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.imgrevista{
+    position: absolute;
+    top: 3500px;
+    left: 120px;
+}
+
+.text{
+    position: absolute;
+    top: 4390px;
+    left: 270px;
+}
+
+.foto{
+    position: absolute;
+    top: 4290px;
+    left: 860px;
+}
+
+.text .p1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text .p2{
+    text-align: center;
+    font-size: 18px;
+}
+
+.btnclick{
+    background-color: #01633b;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 32px;
+    font-size: 22px;
+    border-radius: 8px;
+    font-weight: 550;
+    position: absolute;
+    left: 135px;
+    top: 155px;
+    z-index: -1;
+}
+
+.empleoverde{
+    position: absolute;
+    background-color: #01633b;
+    color: #FFFFFF;
+    height: 565px;
+    top: 4780px;
+    width: 1720px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 140px;
+    padding-left: 1000px;
+}
+
+.empleoverde2{
+    position: absolute;
+    color: #FFFFFF;
+    top: 5005px;
+    left: 900px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.imgempleo{
+    position: absolute;
+    top: 4855px;
+    left: 170px;
+}
+
+.btnclick2{
+    background-color: #FFFFFF;
+    color: #01633b;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 32px;
+    font-size: 22px;
+    border-radius: 8px;
+    font-weight: 550;
+    position: absolute;
+    left: 1055px;
+    top: 5155px;
+}
+
+.text2{
+    position: absolute;
+    top: 5420px;
+    left: 460px;
+}
+
+.foto2{
+    position: absolute;
+    top: 5380px;
+    left: 860px;
+}
+
+.text2 .p1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.text2 .p2{
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer{
+    position: absolute;
+    background-color: #034732;
+    height: 250px;
+    width: 1720px;
+    top: 5835px;
+}
+
+.lafooter1{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    top: 70px;
+    left: 315px;
+}
+
+.elfooter1{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    top: 100px;
+    left: 280px;
+}
+
+.lafooter2{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    top: 70px;
+    left: 780px;
+}
+
+.elfooter2{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    top: 100px;
+    left: 740px;
+}
+
+.lafooter3{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    top: 70px;
+    left: 1270px;
+}
+
+.elfooter3{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    top: 100px;
+    left: 1220px;
+} 
+
+.ejemplofooter p{
+    position: absolute;
+    top: 6130px;
+    left: 760px;
+    font-weight:bold;
+    color: #034732;
+}
+
+.ejemplofooter2 p{
+    position: absolute;
+    top: 6180px;
+    left: 750px;
+    font-size: 13px;
+}
+
+.footer3{
+    position: absolute;
+    background-color: #034732;
+    height: 250px;
+    width: 1720px;
+    top: 1825px;
+}
+
+.lafooter13{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    top: 70px;
+    left: 315px;
+}
+
+.elfooter13{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    top: 100px;
+    left: 280px;
+}
+
+.lafooter23{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    top: 70px;
+    left: 780px;
+}
+
+.elfooter23{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    top: 100px;
+    left: 740px;
+}
+
+.lafooter33{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    top: 70px;
+    left: 1270px;
+}
+
+.elfooter33{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    top: 100px;
+    left: 1220px;
+} 
+
+.ejemplofooter23 p{
+    position: absolute;
+    top: 2100px;
+    left: 745px;
+    font-size: 13px;
+}
+
+.imgredes .face{
+    position: absolute;
+    top: 5700px;
+    left: 535px;
+    width: 4%;
+}
+.imgredes .ins{
+    position: absolute;
+    top: 5700px;
+    left: 615px;
+    width: 4%;
+}
+.imgredes .twi{
+    position: absolute;
+    top: 5700px;
+    left: 695px;
+    width: 4%;
+}
